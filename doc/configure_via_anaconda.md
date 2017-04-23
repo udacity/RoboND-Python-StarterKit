@@ -50,7 +50,8 @@ If you are on Windows, **rename**
 `meta_windows_patch.yml` to   
 `meta.yml`
 
-**Create** RoboND.  Running this command will create a new `conda` environment that is provisioned with all libraries you need to be successful in this program.
+**Create** RoboND.  Running this command will create a new `conda` environment that is provisioned with all libraries you need to be successful in this program.  
+**Note:** if you get an error when you try to run this command that `conda` doesn't exist, try closing and re-opening your terminal window.
 ```
 conda env create -f environment.yml
 ```
