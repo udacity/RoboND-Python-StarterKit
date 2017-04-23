@@ -51,11 +51,14 @@ If you are on Windows, **rename**
 `meta.yml`
 
 **Create** RoboND.  Running this command will create a new `conda` environment that is provisioned with all libraries you need to be successful in this program.  
-**Note:** if you get an error when you try to run this command that `conda` doesn't exist, try closing and re-opening your terminal window.
+**NOTE:** if you get an error when you try to run this command that `conda` doesn't exist, try closing and re-opening your terminal window.
 ```
 conda env create -f environment.yml
 ```
-
+**NOTE:** If the above command fails due to internet issues or timed out HTTP request then remove the partially built environment using the following command (then run the above `create` command again):
+```
+conda env remove -n RoboND
+```
 **Verify** that the RoboND environment was created in your environments:
 
 ```sh
