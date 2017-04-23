@@ -1,4 +1,4 @@
-name: robond-term1
+name: RoboND
 channels:
     - https://conda.anaconda.org/menpo
     - conda-forge
