@@ -71,16 +71,6 @@ conda info --envs
 conda clean -tp
 ```
 
-### Uninstalling 
-
-To uninstall the environment:
-
-```sh
-conda env remove -n RoboND
-```
-
----
-
 ## Using Anaconda
 
 Now that you have created an environment, in order to use it, you will need to activate the environment. This must be done **each** time you begin a new working session i.e. open a new terminal window. 
@@ -105,3 +95,13 @@ $ activate RoboND
 That's it. Now all of the `RoboND` libraries are available to you.
 
 To exit the environment when you have completed your work session, simply close the terminal window.
+
+### Uninstalling
+If you ever want to delete or remove an environment 
+
+To **delete/remove** the "RoboND" environment:
+```
+conda env remove -n RoboND
+```
+
+---
