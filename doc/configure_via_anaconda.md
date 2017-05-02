@@ -58,6 +58,7 @@ conda env create -f environment.yml
 **NOTE:** If the above command fails due to internet issues or timed out HTTP request then remove the partially built environment using the following command (then run the above `create` command again):
 ```
 conda env remove -n RoboND
+conda env create -f environment.yml
 ```
 **Verify** that the RoboND environment was created in your environments:
 
