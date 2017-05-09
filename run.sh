@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
-. activate carnd-term1
-
+. activate RoboND
 if [ -z "$1" ]
   then
     jupyter notebook 
