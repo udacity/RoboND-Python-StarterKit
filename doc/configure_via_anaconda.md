@@ -42,8 +42,8 @@ Using Anaconda consists of the following:
 **Setup** your the `RoboND` environment. 
 
 ```sh
-git clone https://github.com/ryan-keenan/RoboND-Python-Starterkit.git  
-cd RoboND-Python-Starterkit
+git clone https://github.com/udacity/RoboND-Python-StarterKit.git  
+cd RoboND-Python-StarterKit
 ```
 
 If you are on Windows, **rename**   
