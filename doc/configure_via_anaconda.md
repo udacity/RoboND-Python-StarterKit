@@ -39,7 +39,7 @@ Using Anaconda consists of the following:
 - **Mac:** http://conda.pydata.org/docs/install/quick.html#os-x-miniconda-install
 - **Windows:** http://conda.pydata.org/docs/install/quick.html#windows-miniconda-install
 
-**Setup** your the `RoboND` environment. 
+**Setup** your `RoboND` environment. 
 
 ```sh
 git clone https://github.com/udacity/RoboND-Python-StarterKit.git  
