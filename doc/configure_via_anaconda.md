@@ -35,7 +35,7 @@ Using Anaconda consists of the following:
 
 **Install** [miniconda](http://conda.pydata.org/miniconda.html) on your machine. Detailed instructions:
 
-- **Linux:** http://conda.pydata.org/docs/install/quick.html#linux-miniconda-install
+- **Linux:** http://conda.pydata.org/docs/install/quick.html#linux-miniconda-install (Linux users please also see [this warning](https://github.com/udacity/RoboND-Python-StarterKit/blob/master/doc/linux_ros_anaconda_warning.md) about how to resolve potential conflicts between the different Python versions installed via Anaconda and ROS.  
 - **Mac:** http://conda.pydata.org/docs/install/quick.html#os-x-miniconda-install
 - **Windows:** http://conda.pydata.org/docs/install/quick.html#windows-miniconda-install
 
@@ -82,6 +82,7 @@ Now that you have created an environment, in order to use it, you will need to a
 ```sh
 $ source activate RoboND
 ```
+
 ### Windows
 Depending on shell either:
 ```sh
@@ -95,6 +96,7 @@ $ activate RoboND
 
 That's it. Now all of the `RoboND` libraries are available to you.
 
+### However, If you are a Linux user with ROS installed (or planning to install ROS natively on your system) please see [this warning](https://github.com/udacity/RoboND-Python-StarterKit/blob/master/doc/linux_ros_anaconda_warning.md) about how to resolve potential conflicts between the different Python versions installed via Anaconda and ROS.  
 To exit the environment when you have completed your work session, simply close the terminal window.
 
 ### Uninstalling
