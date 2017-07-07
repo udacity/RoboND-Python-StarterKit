@@ -108,3 +108,45 @@ conda env remove -n RoboND
 ```
 
 ---
+
+### A tip for Linux Users!
+Instead of always writing:
+
+```sh
+// activation
+$ source activate RoboND
+
+//deactivation
+$ source deactivate
+```
+
+You can navigate to home directory in shell using:
+
+```sh
+$ cd
+```
+
+Then use an editor to add an `alias` to the `.bashrc` file and shorten the activation line to whatever you want.
+For example:
+
+```sh
+$ sudo nano .bashrc
+
+  ~ navigate with arrow keys all the way to bottom of the file and type:
+  
+> # my aliases
+> alias robond='source activate RoboND'
+> alias killconda='source deactivate'
+  
+  ~ use `CTRL + X` followed by 'y' to save and exit. Restart the terminal to use the changes.
+  
+```
+now to activate and deactivate all you need to write are:
+
+```sh
+// Activate
+$ robond
+
+// Deactivate
+$ killconda
+```
