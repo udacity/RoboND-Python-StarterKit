@@ -23,4 +23,4 @@ dependencies:
     - pyqt=4.11.4
     - pip:
         - moviepy
-        - tensorflow==0.12.1
+        - tensorflow==1.2.0
