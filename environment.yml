@@ -24,3 +24,4 @@ dependencies:
     - pip:
         - moviepy
         - tensorflow==1.2.1
+        - socketIO-client
