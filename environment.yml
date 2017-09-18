@@ -25,3 +25,4 @@ dependencies:
         - moviepy
         - tensorflow==1.2.1
         - socketIO-client
+        - transforms3d
