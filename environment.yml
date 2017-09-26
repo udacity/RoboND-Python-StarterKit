@@ -1,4 +1,4 @@
-name: RoboND
+name: RoboND_test
 channels:
     - https://conda.anaconda.org/menpo
     - conda-forge
@@ -8,6 +8,7 @@ dependencies:
     - sympy
     - matplotlib
     - jupyter
+    - nb_conda
     - opencv3
     - pillow
     - scikit-learn
