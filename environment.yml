@@ -1,4 +1,4 @@
-name: RoboND_test
+name: RoboND
 channels:
     - https://conda.anaconda.org/menpo
     - conda-forge
