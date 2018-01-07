@@ -30,11 +30,46 @@ $ source activate RoboND
 ```
 And it should work!  But in this case, you'll need to remember to do this each time you want to use your Anaconda Python install.  
 
-For a more permanent solution, you can add the `unset PYTHONPATH` line to your `.bashrc` file, but you need to make sure you drop it into the right location, after sourcing ROS.  To do this, open your `.bashrc` file (should be located in your `~/` directory) and find the line that says `source /opt/ros/kinetic/setup.bash` and make this edit:
+## Recommended ROS Approach
 
-```
-source /opt/ros/kinetic/setup.bash
-unset PYTHONPATH
+For a more permanent solution:
+
+1. Install anaconda and choose not to add it to your path
+2. Create a script named: ~/bin/cenv, with the following contents:
+	```
+	#!/bin/bash
+	unset PYTHONPATH
+	export PATH=$HOME/anaconda3/bin:$PATH
+	source activate $1
+	```
+3. Login out and log back in to trigger the ~/bin path to be automatically added to your PATH variable.
+	Then you can run:
+	```
+	. cenv RoboND
+	```
+	anywhere on your system and it just works.
+
+### Example
+
+**Note "." is the same as "source" and is easier to type**
+
+```sh
+$ . /opt/ros/kinetic/setup.bash 
+$ which python
+/usr/bin/python
+$ echo $PYTHONPATH
+/opt/ros/kinetic/lib/python2.7/dist-packages
+$ . cenv RoboND
+(RoboND) $ which python
+~/anaconda3/envs/RoboND/bin/python
+(RoboND) $ echo $PYTHONPATH
+
+(RoboND) $ ipython
+Python 3.5.2 | packaged by conda-forge | (default, Jan 19 2017, 15:28:33) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.0.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: import cv2
 ```
 
 See [this post](https://stackoverflow.com/questions/43019951/after-install-ros-kinetic-cannot-import-opencv) and [this post](https://stackoverflow.com/questions/17386880/does-anaconda-create-a-separate-pythonpath-variable-for-each-new-environment) for more information on the matter.  
