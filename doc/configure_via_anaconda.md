@@ -35,7 +35,7 @@ Using Anaconda consists of the following:
 
 **Install** [miniconda](http://conda.pydata.org/miniconda.html) on your machine. Detailed instructions:
 
-- **Linux:** http://conda.pydata.org/docs/install/quick.html#linux-miniconda-install (Linux users please also see [this warning](https://github.com/udacity/RoboND-Python-StarterKit/blob/master/doc/linux_ros_anaconda_warning.md) about how to resolve potential conflicts between the different Python versions installed via Anaconda and ROS.  
+- **Linux:** https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html (Linux users please also see [this warning](https://github.com/udacity/RoboND-Python-StarterKit/blob/master/doc/linux_ros_anaconda_warning.md) about how to resolve potential conflicts between the different Python versions installed via Anaconda and ROS.  
 - **Mac:** http://conda.pydata.org/docs/install/quick.html#os-x-miniconda-install (Mac users please see [this thread](https://github.com/jupyter/notebook/issues/2438) for possible issues with Jupyter if you have recently updated OSX)
 - **Windows:** http://conda.pydata.org/docs/install/quick.html#windows-miniconda-install
 
